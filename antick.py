@@ -5,14 +5,14 @@ from mechanize import Browser
 reload(sys)
 sys.setdefaultencoding('utf8')
  
-
+ 
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Mozilla/5.0 (Linux; Android 8.1.0; Chrome/79.0.3945.116) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36')]
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
-
-
+ 
+ 
 def keluar():
 	print "\033[1;96m[!] \x1b[1;91mExit"
 	os.sys.exit()
@@ -37,18 +37,18 @@ def jalan(z):
 		time.sleep(00000.1)
 ##### LOGO #####
 logo = """
-   Antick Roy
+   Asif Javed
    ▄︻̷̿┻̿═━一
-   THE ANONYMOUS SILENT KILLER
-   THE LEGEND Killer
-   THE GAME CHANGER SILENT
-   bangladeshi hackers
+   THE ANONYMOUS lovehacker TRICKER 
+   THE LEGEND ℒℴνℯ
+   THE GAME CHANGER ℒℴνℯ
+   pakistani hackers
    ℒℴνℯ ▄︻̷̿┻̿═━一
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92antick
-\033[1;96mYouTube \033[1;93m: \033[1;92mSilent killer
-\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/antickroy11/AntickFb
-\033[1;96mBlogger \033[1;93m: \033[1;92mhttps://www.facebook.com/silentkiller.abalalerbap.365
+\033[1;96mAuthor  \033[1;93m: \033[1;92mlove
+\033[1;96mYouTube \033[1;93m: \033[1;92mPakistani Hackers
+\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/lovehacker/love
+\033[1;96mBlogger \033[1;93m: \033[1;92mhttps://www.facebook.com/lovehacker
 \033[1;91m======================================="""
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -72,8 +72,8 @@ print  """\033[1;91m=======================================
 \033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/lovehacker
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
-CorrectUsername = "Silent Killer"
-CorrectPassword = "Antick Riya"
+CorrectUsername = "lovehacker"
+CorrectPassword = "03094161457"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
@@ -392,3 +392,4 @@ def pilih_super():
 	menu()
 if __name__ == '__main__':
 	login()
+ 
